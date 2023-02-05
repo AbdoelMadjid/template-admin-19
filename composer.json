@@ -1,0 +1,14 @@
+{
+	"name": "smartadmin",
+	"description": "SmartAdmin Theme",
+	"autoload": {
+		"psr-4": {
+			"SmartUI\\": "lib/smartui",
+			"Common\\": "lib/common",
+			"App\\": "lib/app"
+		}
+	},
+	"require": {
+		"erusev/parsedown": "^1.6"
+	}
+}
